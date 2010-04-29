@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="RailsFacetType" name="Ruby on Rails">
+      <configuration>
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="GemRequirementsHolder" version="2">
+    <requirement>
+      <requirement>
+        <dependency name="RedCloth" version="4.1.1" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/railties/guides/rails_guides.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="actionpack" version="2.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/railties/guides/rails_guides.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="activesupport" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/railties/lib/rails_generator.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="addressable" version="2.0" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <source from="vendor/rails/activerecord/examples/performance.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <source from="vendor/rails/activesupport/lib/active_support/vendor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="chriseppstein-compass" version="0" bound="GREATER_OR_EQUAL" url="&quot;http://gems.github.com/&quot;" />
+      </requirement>
+      <source from="vendor/gems/compass-0.8.17/lib/compass/app_integration/rails/templates/compass-install-rails.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="chriseppstein-compass-960-plugin" version="0" bound="GREATER_OR_EQUAL" url="&quot;http://gems.github.com&quot;" />
+      </requirement>
+      <source from="vendor/gems/compass-0.8.17/lib/compass/app_integration/rails/templates/compass-install-rails.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="clearance" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="compass" version="0.8.17" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="cucumber-rails" version="0.2.2" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/clearance-0.8.7/test/rails_root/config/environments/test.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="factory_girl" version="0" bound="GREATER_OR_EQUAL" url="&quot;http://gemcutter.org&quot;" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="factory_girl" version="1.2.3" bound="GREATER_OR_EQUAL" url="http://gemcutter.org" />
+      </requirement>
+      <source from="vendor/gems/clearance-0.8.7/test/rails_root/config/environments/test.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="faker" version="0.3.1" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <source from="vendor/rails/activerecord/examples/performance.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="haml" version="2.2.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/compass-0.8.17/lib/compass/app_integration/rails/templates/compass-install-rails.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="haml" version="2.2.16" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="haml-edge" version="2.3.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/compass-0.8.17/lib/compass/dependencies.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="i18n" version="0.1.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/activesupport/lib/active_support/vendor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="jferris-mocha" version="0.9.5.0.1241126838" bound="EQUAL" />
+      </requirement>
+      <source from="vendor/gems/paperclip-2.3.1.1/test/helper.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="justinfrench-formtastic" version="0" bound="GREATER_OR_EQUAL" url="'http://gems.github.com'" />
+      </requirement>
+      <source from="vendor/gems/clearance-0.8.7/test/rails_root/config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="memcache-client" version="1.7.4" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/activesupport/lib/active_support/vendor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mocha" version="0.9.7" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/activesupport/lib/active_support/test_case.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="paperclip" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rack" version="1.0.1" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <source from="vendor/rails/actionpack/lib/action_controller.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/boot.rb" />
+      <source from="vendor/gems/clearance-0.8.7/test/rails_root/config/boot.rb" />
+      <source from="vendor/gems/thoughtbot-shoulda-2.10.2/test/rails_root/config/boot.rb" />
+      <source from="vendor/rails/railties/environments/boot.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rbench" version="0.2.3" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <source from="vendor/rails/activerecord/examples/performance.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rmagick" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/compass-0.8.17/lib/compass/grid_builder.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/thoughtbot-shoulda-2.10.2/test/rspec_test.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec-rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/thoughtbot-shoulda-2.10.2/test/rspec_test.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="ruby-prof" version="0.6.1" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/activesupport/lib/active_support/testing/performance.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="shoulda" version="2.9.1" bound="GREATER_OR_EQUAL" url="http://gemcutter.org" />
+      </requirement>
+      <source from="vendor/gems/clearance-0.8.7/test/rails_root/config/environments/test.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sqlite3-ruby" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/database.yml" />
+      <source from="vendor/gems/paperclip-2.3.1.1/test/helper.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="text-format" version="0.6.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/rails/actionmailer/lib/action_mailer/vendor/text_format.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="thoughtbot-shoulda" version="0" bound="GREATER_OR_EQUAL" url="&quot;http://gems.github.com&quot;" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="tmail" version="1.2.3" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <source from="vendor/rails/actionmailer/lib/action_mailer/vendor/tmail.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="tzinfo" version="0.3.12" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <source from="vendor/rails/activesupport/lib/active_support/vendor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="webrat" version="0.6.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/clearance-0.8.7/test/rails_root/config/environments/test.rb" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/rails/actionmailer/test" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/rails/actionpack/test" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/rails/activerecord/test" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/rails/activeresource/test" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

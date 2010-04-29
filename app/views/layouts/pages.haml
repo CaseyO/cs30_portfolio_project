@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    = stylesheet_link_tag 'compiled/global.css'
+  %body
+
+    #gridWrapper
+      = flash[:notice]
+      = flash[:error]
+      = yield

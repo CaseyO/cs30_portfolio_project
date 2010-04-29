@@ -1,0 +1,93 @@
+;; Here is part of a project I completed using scheme.
+
+
+
+
+#|
+NAME: Casey Ochs
+
+ASSIGNMENT: Project 1
+
+GAVE HELP TO:
+
+RECEIVED HELP FROM: Aaron Panchal, Riley Frambes, Morgan Virgil
+
+|#
+
+
+
+
+#|
+Our alphabet will be the symbols: 'A, 'B, ... 'Z, '| |
+(the last is a symbolic representation of a space).
+A gene is a symbol from our alphabet
+|#
+;; A genetic-sequence is either:
+;; 1. empty, or
+;; 2. (cons s i) where s is a gene and i is a genetic-sequence
+;; (Or as we would write at this point of the semester, a (listof gene).)
+
+(define-struct org (code fit))
+;; An individual is a structure: (make-org c f) where c is a
+;; genetic-sequence and f is a number representing the fitness
+
+;; Let us define a population to be a (listof individuals).
+
+
+
+
+
+(define env '(A C Z))
+(define alpha '(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ||))
+
+
+(define (gen-rand alpha)
+ (list-ref alpha (random (length alpha))))
+
+;; this takes.......
+(define (make-indiv env)
+  (build-list (length env) (lambda (x) (gen-rand alpha))))
+
+
+
+;; fit: genetic-sequence genetic-sequence: number
+;; returns the number of genes in the individual that match the target
+(check-expect (fit '(A B C D) '(A F G D)) 2)
+(define (fit target indi)
+  (local ((define (count-true lob)
+            (length (filter (lambda (b) (boolean=? true b)) lob))))
+    (count-true (map (lambda (t i) (symbol=? t i)) target indi))))
+
+
+
+;; make-pop: genetic-sequence number -> (listof individuals)
+;; make-pop takes in target gene sequence and the number of desired individuals for a population and return a random population
+(define (make-pop target size)
+  (map (lambda (gs) (make-org gs (fit gs target))) (build-list size (make-indiv target))))
+
+
+
+;; p = .10
+(define BACKMUTATE 8)
+
+;; p = .70
+(define FORWARDMUTATE 2)
+;; offspring: organism gene-org -> organism
+;; given an organism and a gen-seq, create a semi-rangomly generated organism
+
+(define (offspring org target)
+  (local ((define (create-gene org target)
+            (map (lambda (gene1 gene2) (cond
+                                         [(symbol=? gene1 gene2) (cond
+                                                                   [(boolean=? (< (random 10) BACKMUTATE) true) (list-ref alpha (random 27))]
+                                                                   [else gene1])]
+                                         [else (cond
+                                                 [(boolean=? (< (random 10) FORWARDMUTATE) true) (list-ref alpha (random 27))]
+                                                 [else gene1])])) (org-code org) target))
+          (define func (create-gene org target)))
+    (make-org func (fit target func))))
+
+
+
+;; test
+(offspring (make-org '(A B D G) 3) '(G R T Y))
