@@ -1009,3 +1009,312 @@ ActionController::RoutingError (No route matches "/html/tags/html_form_tag_actio
   C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20100429065342)
+Migrating to CreateComments (20100429073824)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("posts")[0m
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 10:41:42) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (7.0ms)
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing PagesController#_resume (for 127.0.0.1 at 2010-04-29 10:41:45) [GET]
+Rendering template within layouts/pages
+Rendering pages/_resume
+Rendered pages/_resume (4.0ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/_resume]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 10:41:48) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 269ms (View: 91, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 10:41:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 10:41:54) [GET]
+
+ActionController::RoutingError (No route matches "/CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 10:42:42) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (8.0ms)
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 10:42:43) [GET]
+
+ActionController::RoutingError (No route matches "/CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 10:42:46) [GET]
+
+ActionController::RoutingError (No route matches "/CS_30" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#_resume (for 127.0.0.1 at 2010-04-29 10:42:48) [GET]
+Rendering template within layouts/pages
+Rendering pages/_resume
+Rendered pages/_resume (7.0ms)
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/pages/_resume]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 10:42:51) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 255ms (View: 96, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 10:43:09) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (1.0ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 10:43:12) [GET]
+
+ActionController::RoutingError (No route matches "/CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 10:43:14) [GET]
+
+ActionController::RoutingError (No route matches "/CS_30" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 10:43:26) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 10:43:46) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 10:43:47) [GET]
+
+ActionController::RoutingError (No route matches "/CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 10:44:13) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (12.0ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing PagesController#_CS_10 (for 127.0.0.1 at 2010-04-29 10:44:14) [GET]
+Rendering template within layouts/pages
+Rendering pages/_CS_10
+Rendered pages/_CS_10 (3.0ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/_CS_10]
+
+
+Processing PagesController#_CS_30 (for 127.0.0.1 at 2010-04-29 10:44:19) [GET]
+Rendering template within layouts/pages
+Rendering pages/_CS_30
+Rendered pages/_CS_30 (4.0ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/_CS_30]
+
+
+Processing PagesController#_resume (for 127.0.0.1 at 2010-04-29 10:44:21) [GET]
+Rendering template within layouts/pages
+Rendering pages/_resume
+Rendered pages/_resume (0.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/_resume]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 10:44:24) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PagesController#_resume (for 127.0.0.1 at 2010-04-29 10:46:13) [GET]
+Rendering template within layouts/pages
+Rendering pages/_resume
+Rendered pages/_resume (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/_resume]
+
+
+Processing PagesController#_CS_10 (for 127.0.0.1 at 2010-04-29 10:47:09) [GET]
+Rendering template within layouts/pages
+Rendering pages/_CS_10
+Rendered pages/_CS_10 (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/_CS_10]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 10:48:24) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 50ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PagesController#_resume (for 127.0.0.1 at 2010-04-29 11:02:15) [GET]
+Rendering template within layouts/pages
+Rendering pages/_resume
+Rendered pages/_resume (0.0ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/_resume]
+
+
+Processing PagesController#_CS_10 (for 127.0.0.1 at 2010-04-29 11:02:36) [GET]
+Rendering template within layouts/pages
+Rendering pages/_CS_10
+Rendered pages/_CS_10 (0.0ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/_CS_10]
+
+
+Processing PagesController#_CS_30 (for 127.0.0.1 at 2010-04-29 11:02:56) [GET]
+Rendering template within layouts/pages
+Rendering pages/_CS_30
+Rendered pages/_CS_30 (1.0ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/_CS_30]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 11:03:13) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-04-29 11:03:16) [GET]
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 31ms (View: 17, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 11:03:31) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 11:03:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 12:22:12) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (7.0ms)
+Completed in 2410ms (View: 2409, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing PagesController#_CS_10 (for 127.0.0.1 at 2010-04-29 12:22:17) [GET]
+Rendering template within layouts/pages
+Rendering pages/_CS_10
+Rendered pages/_CS_10 (7.0ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/_CS_10]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 12:22:20) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 334ms (View: 133, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 12:22:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 12:22:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/posts/1]
