@@ -1495,3 +1495,119 @@ Rendering posts/show
 Rendered posts/_comment (0.0ms)
 Rendered posts/_comment (1.0ms)
 Completed in 22ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-29 13:31:20) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/comments
+Rendering comments/show
+
+ActionView::TemplateError (undefined method `name' for nil:NilClass) on line #3 of app/views/comments/show.html.erb:
+1: <p>
+2:   <b>Name:</b>
+3:   <%=h @comment.name %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/comments/show.html.erb:3
+    haml (2.2.16) [v] lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.16) [v] lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.16) [v] lib/sass/plugin/rails.rb:19:in `process'
+    compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (83.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-04-29 13:32:06) [GET]
+Rendering template within layouts/comments
+Rendering comments/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #11 of app/views/comments/index.html.erb:
+8:     <th>Post</th>
+9:   </tr>
+10: 
+11: <% @comments.each do |comment| %>
+12:   <tr>
+13:     <td><%=h comment.name %></td>
+14:     <td><%=h comment.email %></td>
+
+    app/views/comments/index.html.erb:11
+    haml (2.2.16) [v] lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.16) [v] lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.16) [v] lib/sass/plugin/rails.rb:19:in `process'
+    compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 13:32:12) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 13:32:26) [GET]
+
+ActionController::RoutingError (No route matches "/_home" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#_home (for 127.0.0.1 at 2010-04-29 13:32:36) [GET]
+Rendering template within layouts/pages
+Rendering pages/_home
+Rendered pages/_home (9.0ms)
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://localhost/pages/_home]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 13:32:39) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 293ms (View: 100, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 13:32:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered posts/_comment (1.0ms)
+Rendered posts/_comment (0.0ms)
+Completed in 37ms (View: 22, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 13:33:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+Rendered posts/_comment (0.0ms)
+Rendered posts/_comment (0.0ms)
+Completed in 30ms (View: 14, DB: 1) | 200 OK [http://localhost/posts/1]
