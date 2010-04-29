@@ -1611,3 +1611,570 @@ Rendering posts/show
 Rendered posts/_comment (0.0ms)
 Rendered posts/_comment (0.0ms)
 Completed in 30ms (View: 14, DB: 1) | 200 OK [http://localhost/posts/1]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:13:18) [GET]
+Rendering template within layouts/pages
+Rendered pages/_home (7.0ms)
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 14:13:20) [GET]
+
+ActionController::RoutingError (No route matches "/CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 14:13:42) [GET]
+
+ActionController::RoutingError (No route matches "/CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:13:46) [GET]
+Rendering template within layouts/pages
+Rendered pages/_home (8.0ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 14:13:47) [GET]
+
+ActionController::RoutingError (No route matches "/_CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 14:13:51) [GET]
+
+ActionController::RoutingError (No route matches "/_CS_30" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:14:01) [GET]
+Rendering template within layouts/pages
+Rendered pages/_home (8.0ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 14:14:03) [GET]
+
+ActionController::RoutingError (No route matches "/_CS_10" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 14:14:05) [GET]
+
+ActionController::RoutingError (No route matches "/_CS_30" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 14:14:15) [GET]
+
+ActionController::RoutingError (No route matches "/_CS_30" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:18:43) [GET]
+Rendering template within layouts/pages
+Rendered pages/_home (8.0ms)
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:18:45) [GET]
+  Parameters: {"page"=>"CS_10"}
+Rendering template within layouts/pages
+ERROR: compiling _run_haml_app47views47pages47_CS_1046haml_locals_CS_10_object RAISED C:/Users/Casey/cs30_portfolio_project/app/views/pages/_CS_10.haml:1: dynamic constant assignment
+..._buffer = output_buffer;CS_10 = local_assigns[:CS_10];object...
+...                               ^
+Function body:           def _run_haml_app47views47pages47_CS_1046haml_locals_CS_10_object(local_assigns)
+            old_output_buffer = output_buffer;CS_10 = local_assigns[:CS_10];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml, :encoding=>"utf-8", :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<h1 class='page-title'>CS-10 Intro to Computer Science</h1>\n<div class='row'>\n  <div class='three columns first'>\n    <p>\n      CS-10 is a intro course to computer science\n      at Westmont college. It is taught in scheme,\n      and teaches the basic fundamentals of programming\n      and computer science.\n    </p>\n  </div>\n</div>\n<h2>Example Project</h2>\n<div class='row'>\n  <div class='three columns first'>\n    <p>\n      Here is a example of a Scheme project that\n      I completed in CS-10.\n    </p>\n    <p>\n      #{_hamlout.adjust_tabs(3); haml_temp =  image_tag "scheme-pic.JPG"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </p>\n  </div>\n</div>\n", -3, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:77:in `compile!'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:20:in `block in render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `block in benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:19:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/template.rb:205:in `render_template'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:44:in `render_partial'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/partials.rb:184:in `render_partial'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/base.rb:267:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/haml-2.2.16/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:971:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/app/controllers/pages_controller.rb:4:in `index'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:1331:in `perform_action'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/haml-2.2.16/lib/sass/plugin/rails.rb:19:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Users/Casey/cs30_portfolio_project/app/views/pages/_CS_10.haml:1: dynamic constant assignment
+..._buffer = output_buffer;CS_10 = local_assigns[:CS_10];object...
+...                               ^) on line #1 of app/views/pages/_CS_10.haml:
+1: %h1.page-title CS-10 Intro to Computer Science
+2: .row
+3:     .three.columns.first
+4:         %p
+
+    haml (2.2.16) [v] lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    app/controllers/pages_controller.rb:4:in `index'
+    haml (2.2.16) [v] lib/sass/plugin/rails.rb:19:in `process'
+    compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (88.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:18:54) [GET]
+  Parameters: {"page"=>"CS_30"}
+Rendering template within layouts/pages
+ERROR: compiling _run_haml_app47views47pages47_CS_3046haml_locals_CS_30_object RAISED C:/Users/Casey/cs30_portfolio_project/app/views/pages/_CS_30.haml:1: dynamic constant assignment
+..._buffer = output_buffer;CS_30 = local_assigns[:CS_30];object...
+...                               ^
+Function body:           def _run_haml_app47views47pages47_CS_3046haml_locals_CS_30_object(local_assigns)
+            old_output_buffer = output_buffer;CS_30 = local_assigns[:CS_30];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml, :encoding=>"utf-8", :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<h1 class='page-title'>CS-30 Intro to Computer Science II</h1>\n<div class='row'>\n  <div class='three columns first'>\n    <p>\n      CS-30 is a continuation of CS-10 that\n      builds onto the key ideas of computer\n      science, using ruby.\n    </p>\n  </div>\n</div>\n<h2>Example Project</h2>\n<div class='row'>\n  <div class='three columns first'>\n    <p>\n      Here is a example of a Ruby project that\n      I completed in CS-30.\n    </p>\n    <p>\n      #{_hamlout.adjust_tabs(3); haml_temp =  image_tag "rubypic.JPG"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </p>\n  </div>\n</div>\n", -3, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:77:in `compile!'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:20:in `block in render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `block in benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:19:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/template.rb:205:in `render_template'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:44:in `render_partial'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/partials.rb:184:in `render_partial'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/base.rb:267:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/haml-2.2.16/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:971:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/app/controllers/pages_controller.rb:4:in `index'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:1331:in `perform_action'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/haml-2.2.16/lib/sass/plugin/rails.rb:19:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Users/Casey/cs30_portfolio_project/app/views/pages/_CS_30.haml:1: dynamic constant assignment
+..._buffer = output_buffer;CS_30 = local_assigns[:CS_30];object...
+...                               ^) on line #1 of app/views/pages/_CS_30.haml:
+1: %h1.page-title CS-30 Intro to Computer Science II
+2: .row
+3:     .three.columns.first
+4:         %p
+
+    haml (2.2.16) [v] lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    app/controllers/pages_controller.rb:4:in `index'
+    haml (2.2.16) [v] lib/sass/plugin/rails.rb:19:in `process'
+    compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:19:04) [GET]
+  Parameters: {"page"=>"resume"}
+Rendering template within layouts/pages
+Rendered pages/_resume (7.0ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/resume]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 14:19:13) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 280ms (View: 94, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-04-29 14:19:15) [GET]
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2010-04-29 14:19:25) [POST]
+  Parameters: {"authenticity_token"=>"kIe2pH431pVHKhMHt5iDwX1UVDqN2W0tiH05ygmpuz4=", "post"=>{"title"=>"I AM A POST.", "body"=>"postpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpost"}, "commit"=>"Create"}
+  [4;35;1mPost Create (1.0ms)[0m   [0mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES('I AM A POST.', 'postpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpost', '2010-04-29 21:19:25', '2010-04-29 21:19:25')[0m
+Redirected to http://localhost:3000/posts/2
+Completed in 139ms (DB: 1) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 14:19:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+  [4;35;1mComment Load (0.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 2) [0m
+Completed in 30ms (View: 15, DB: 1) | 200 OK [http://localhost/posts/2]
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-29 14:19:37) [POST]
+  Parameters: {"authenticity_token"=>"kIe2pH431pVHKhMHt5iDwX1UVDqN2W0tiH05ygmpuz4=", "comment"=>{"post_id"=>"2", "name"=>"asdfasdfa", "email"=>"aasdfasdfa@asdfasdf.asdfasdfasd", "body"=>"postpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostcomment"}, "commit"=>"Post Comment"}
+  [4;36;1mComment Create (0.0ms)[0m   [0;1mINSERT INTO "comments" ("name", "email", "body", "post_id", "created_at", "updated_at") VALUES('asdfasdfa', 'aasdfasdfa@asdfasdf.asdfasdfasd', 'postpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostpostcomment', 2, '2010-04-29 21:19:37', '2010-04-29 21:19:37')[0m
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Redirected to http://localhost:3000/posts/2
+Completed in 138ms (DB: 1) | 302 Found [http://localhost/comments]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-29 14:19:37) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+  [4;35;1mComment Load (0.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 2) [0m
+Rendered posts/_comment (1.0ms)
+Completed in 33ms (View: 19, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-29 14:19:44) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 19ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:19:53) [GET]
+Rendering template within layouts/pages
+Rendered pages/_home (1.0ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:20:34) [GET]
+  Parameters: {"page"=>"CS_10"}
+Rendering template within layouts/pages
+ERROR: compiling _run_haml_app47views47pages47_CS_1046haml_locals_CS_10_object RAISED C:/Users/Casey/cs30_portfolio_project/app/views/pages/_CS_10.haml:1: dynamic constant assignment
+..._buffer = output_buffer;CS_10 = local_assigns[:CS_10];object...
+...                               ^
+Function body:           def _run_haml_app47views47pages47_CS_1046haml_locals_CS_10_object(local_assigns)
+            old_output_buffer = output_buffer;CS_10 = local_assigns[:CS_10];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml, :encoding=>"utf-8", :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<h1 class='page-title'>CS-10 Intro to Computer Science</h1>\n<div class='row'>\n  <div class='three columns first'>\n    <p>\n      CS-10 is a intro course to computer science\n      at Westmont college. It is taught in scheme,\n      and teaches the basic fundamentals of programming\n      and computer science.\n    </p>\n  </div>\n</div>\n<h2>Example Project</h2>\n<div class='row'>\n  <div class='three columns first'>\n    <p>\n      Here is a example of a Scheme project that\n      I completed in CS-10.\n    </p>\n    <p>\n      #{_hamlout.adjust_tabs(3); haml_temp =  image_tag "scheme-pic.JPG"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </p>\n  </div>\n</div>\n", -3, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:77:in `compile!'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:20:in `block in render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `block in benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:19:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/template.rb:205:in `render_template'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:44:in `render_partial'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/partials.rb:184:in `render_partial'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_view/base.rb:267:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/haml-2.2.16/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:971:in `render'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/app/controllers/pages_controller.rb:4:in `index'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:1331:in `perform_action'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/haml-2.2.16/lib/sass/plugin/rails.rb:19:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/gems/compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Users/Casey/cs30_portfolio_project/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Users/Casey/cs30_portfolio_project/app/views/pages/_CS_10.haml:1: dynamic constant assignment
+..._buffer = output_buffer;CS_10 = local_assigns[:CS_10];object...
+...                               ^) on line #1 of app/views/pages/_CS_10.haml:
+1: %h1.page-title CS-10 Intro to Computer Science
+2: .row
+3:     .three.columns.first
+4:         %p
+
+    haml (2.2.16) [v] lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    app/controllers/pages_controller.rb:4:in `index'
+    haml (2.2.16) [v] lib/sass/plugin/rails.rb:19:in `process'
+    compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process_with_compass'
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:21:39) [GET]
+Rendering template within layouts/pages
+Rendered pages/_home (8.0ms)
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:21:40) [GET]
+  Parameters: {"page"=>"cs_10"}
+Rendering template within layouts/pages
+Rendered pages/_cs_10 (3.0ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/cs_10]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-29 14:21:44) [GET]
+  Parameters: {"page"=>"cs_30"}
+Rendering template within layouts/pages
+Rendered pages/_cs_30 (2.0ms)
+Completed in 46ms (View: 45, DB: 0) | 200 OK [http://localhost/cs_30]

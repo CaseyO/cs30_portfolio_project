@@ -45,5 +45,6 @@ ActionController::Routing::Routes.draw do |map|
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
   
+  map.show_page '/:page', :controller => 'pages', :action => 'index'
 end
 
